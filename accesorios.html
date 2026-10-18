@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accesorios | El Maestro</title>
+  <meta name="description" content="Accesorios para celulares: fundas, protectores, cargadores, cables y más. Pide por WhatsApp.">
+  <link rel="icon" href="icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Esta página muestra los productos en filas de 3 */
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 900px) {
+      .productos { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .productos { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="barra">
+    <a href="index.html#inicio" class="marca"><img src="logo.png" alt="El Maestro"></a>
+    <nav>
+      <a href="index.html#categorias">Categorías</a>
+      <a href="index.html#productos">Productos</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="seccion">
+      <h2>Accesorios para tu celular</h2>
+      <p class="intro">toca “Pedir” y te brindamos toda la información sobre el producto.</p>
+
+      <div class="productos">
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('67w.png')" role="img" aria-label="Funda transparente"></div>
+          <h3>KM-E6054</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20funda%20transparente">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('25w samsung.png')" role="img" aria-label="Funda reforzada"></div>
+          <h3>Power Adapter 25w</h3>
+          <p class="precio">$18.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20funda%20reforzada">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('magsafe.png')" role="img" aria-label="Protector de pantalla de vidrio"></div>
+          <h3>Magnetic Charger</h3>
+          <p class="precio">$12.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20protector%20de%20vidrio">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('cable lightnin.png')" role="img" aria-label="Cargador rápido"></div>
+          <h3>Cable Lightning</h3>
+          <p class="precio">$5.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20cargador%20r%C3%A1pido">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('km-e6053.png')" role="img" aria-label="Cable USB-C"></div>
+          <h3>KM-E6053</h3>
+          <p class="precio">$11.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20cable%20USB-C">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('xo charger.png')" role="img" aria-label="Cable Lightning"></div>
+          <h3>XO-L158</h3>
+          <p class="precio">$8.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20cable%20Lightning">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('xo-pb308.png')" role="img" aria-label="Cable micro USB"></div>
+          <h3>XO-PB308</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20cable%20micro%20USB">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('bs-e5726.png')" role="img" aria-label="Cargador para carro"></div>
+          <h3>BS-E5726</h3>
+          <p class="precio">$25.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20cargador%20para%20carro">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('power.png')" role="img" aria-label="Batería portátil"></div>
+          <h3>KM-E5718</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bater%C3%ADa%20port%C3%A1til">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('dp-b23.png')" role="img" aria-label="Soporte para celular"></div>
+          <h3>DP-B23</h3>
+          <p class="precio">$30.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20el%20soporte%20para%20celular">Pedir</a>
+        </article>
+ 
+
+      </div>
+    </section>
+
+    <section class="seccion naranja">
+      <div class="dos-columnas">
+        <h2>¿No ves lo que buscas?</h2>
+        <div>
+          <p>Escríbenos y te decimos si lo tenemos disponible para tu modelo.</p>
+          <a class="boton boton-negro" href="https://wa.me/50766902504?text=Hola,%20busco%20un%20accesorio%20para%20mi%20celular">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="logo.png" alt="El Maestro">
+    <p>© 2026 El Maestro</p>
+  </footer>
+
+</body>
+</html>

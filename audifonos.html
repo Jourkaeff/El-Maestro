@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audífonos | El Maestro</title>
+  <meta name="description" content="Audífonos en El Maestro. Elige tu modelo y pídelo por WhatsApp.">
+  <link rel="icon" href="icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Filas de 4 productos; en pantallas más chicas baja a 3, 2 y 1 */
+    .productos { grid-template-columns: repeat(4, 1fr); }
+    @media (max-width: 1000px) { .productos { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 720px)  { .productos { grid-template-columns: repeat(2, 1fr); gap: 16px; } }
+    @media (max-width: 420px)  { .productos { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <header class="barra">
+    <a href="index.html" class="marca"><img src="logo.png" alt="El Maestro"></a>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="#audifonos">Audífonos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-texto">
+        <h1>Audífonos para todos los gustos.</h1>
+        <p>Con cable e inalámbricos. Elige el tuyo y pídelo directo por WhatsApp.</p>
+        <div class="acciones">
+          <a class="boton boton-negro" href="#audifonos">Ver audífonos</a>
+          <a class="boton boton-borde" href="https://wa.me/50766902504?text=Hola,%20quiero%20informaci%C3%B3n%20de%20aud%C3%ADfonos">Escribir por WhatsApp</a>
+        </div>
+      </div>
+      <img class="hero-m" src="icono.png" alt="">
+    </section>
+
+    <section id="audifonos" class="seccion">
+      <h2>Nuestros audífonos</h2>
+      <p class="intro">toca “Pedir” y te brindamos toda la información sobre el producto.</p>
+
+      <div class="productos">
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('airpods-4.jpg')" role="img" aria-label="Audífonos 1"></div>
+          <h3>Audífonos Inalambricos </h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%201">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('AirPods-2-diseno.png')" role="img" aria-label="Audífonos 2"></div>
+          <h3>Audífonos Inalambricos</h3>
+          <p class="precio">$18.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%202">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('labubu.jpg')" role="img" aria-label="Audífonos 3"></div>
+          <h3>TWS-36/Labubu</h3>
+          <p class="precio">$10.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%203">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('OIP.webp')" role="img" aria-label="Audífonos 4"></div>
+          <h3>KR-9900/StarWars</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%204">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('xy30.webp')" role="img" aria-label="Audífonos 5"></div>
+          <h3>XY-30</h3>
+          <p class="precio">$30.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%205">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('HD-1P-EV610AP-1200x630.jpg')" role="img" aria-label="Audífonos 6"></div>
+          <h3>Kingmox-EV610AP</h3>
+          <p class="precio">$13.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%206">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('bk27.png')" role="img" aria-label="Audífonos 7"></div>
+          <h3>BK-27</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%207">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('806q3.webp')" role="img" aria-label="Audífonos 8"></div>
+          <h3>AH-806Q3</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%208">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('dr38.jpeg')" role="img" aria-label="Audífonos 9"></div>
+          <h3>DR-38</h3>
+          <p class="precio">$15.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%209">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('cyqg.webp')" role="img" aria-label="Audífonos 10"></div>
+          <h3>CYXG-Q86</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2010">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('twsq172.png')" role="img" aria-label="Audífonos 11"></div>
+          <h3>TWS-Q17</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2011">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('ne105v2.png')" role="img" aria-label="Audífonos 12"></div>
+          <h3>NE-105</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2012">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('air 40.png')" role="img" aria-label="Audífonos 13"></div>
+          <h3>AIR 40</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2013">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('ne07.png')" role="img" aria-label="Audífonos 14"></div>
+          <h3>NE-07</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2014">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('dmix25.jpg')" role="img" aria-label="Audífonos 15"></div>
+          <h3>Damix-M25</h3>
+          <p class="precio">$18.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2015">Pedir</a>
+        </article>
+
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('xo50.jpg')" role="img" aria-label="Audífonos 17"></div>
+          <h3>XO-X50</h3>
+          <p class="precio">$23.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2017">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('OWS-80PurpleType-c_1_800x.webp')" role="img" aria-label="Audífonos 18"></div>
+          <h3>OWS-80</h3>
+          <p class="precio">$10.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2018">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('bosney.webp')" role="img" aria-label="Audífonos 19"></div>
+          <h3>Bossney-A1804B</h3>
+          <p class="precio">$12.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2019">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('max pro.avif')" role="img" aria-label="Audífonos 20"></div>
+          <h3>Max Pro</h3>
+          <p class="precio">$12.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2020">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('damix as01.jpg')" role="img" aria-label="Audífonos 21"></div>
+          <h3>Damix-AS01</h3>
+          <p class="precio">$21.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2021">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('damix dx26.avif')" role="img" aria-label="Audífonos 22"></div>
+          <h3>Damix-DX26</h3>
+          <p class="precio">$20.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2022">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('x0x33.jpg')" role="img" aria-label="Audífonos 23"></div>
+          <h3>XO-X33</h3>
+          <p class="precio">$10.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2023">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('lig.webp')" role="img" aria-label="Audífonos 24"></div>
+          <h3>Audifonos Alambricos/Lightning</h3>
+          <p class="precio">$10.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20los%20Aud%C3%ADfonos%2024">Pedir</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="seccion oscura">
+      <div class="dos-columnas">
+        <div>
+          <h2>¿No ves el que buscas? Pregúntanos.</h2>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20busco%20unos%20aud%C3%ADfonos%20que%20no%20veo%20en%20la%20p%C3%A1gina">Escribir por WhatsApp</a>
+        </div>
+        <ul class="datos">
+          <li><strong>Teléfono</strong> <a href="tel:+50766902504">6690-2504</a></li>
+          <li><strong>Horario</strong> Lunes a sábado, 7:00 a.m. a 6:30 p.m.</li>
+          <li><strong>Dirección</strong> Bugaba, La Concepcion, C.central, Bugaba, Provincia de Chiriqui.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="logo.png" alt="El Maestro">
+    <p>© 2026 El Maestro</p>
+  </footer>
+
+</body>
+</html>

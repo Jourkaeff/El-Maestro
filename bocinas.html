@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bocinas | El Maestro</title>
+  <meta name="description" content="Bocinas portátiles y para la casa. Pide por WhatsApp.">
+  <link rel="icon" href="icono.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <style>
+    /* Esta página muestra los productos en filas de 3 */
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    @media (max-width: 900px) {
+      .productos { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 560px) {
+      .productos { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="barra">
+    <a href="index.html#inicio" class="marca"><img src="logo.png" alt="El Maestro"></a>
+    <nav>
+      <a href="index.html#categorias">Categorías</a>
+      <a href="index.html#productos">Productos</a>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="seccion">
+      <h2>Bocinas</h2>
+      <p class="intro">toca “Pedir” y te brindamos toda la información sobre el producto.</p>
+
+      <div class="productos">
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('sz-803.png')" role="img" aria-label="Bocina mini portátil"></div>
+          <h3>SZ-803</h3>
+          <p class="precio">$40.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20mini%20port%C3%A1til">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('ndr-p66.png')" role="img" aria-label="Bocina Bluetooth"></div>
+          <h3>NDR-P66</h3>
+          <p class="precio">$18.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20Bluetooth">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('zqs15111.png')" role="img" aria-label="Bocina resistente al agua"></div>
+          <h3>ZQS-15111</h3>
+          <p class="precio">$65.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20resistente%20al%20agua">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('mx8202s.png')" role="img" aria-label="Bocina portátil"></div>
+          <h3>MX-8202S</h3>
+          <p class="precio">$50.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20port%C3%A1til">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('tg-333.jpg')" role="img" aria-label="Bocina con luces"></div>
+          <h3>TG-333</h3>
+          <p class="precio">$18.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20con%20luces">Pedir</a>
+        </article>
+
+        <article class="producto">
+          <div class="foto" style="--foto: url('bt-1305.jpg')" role="img" aria-label="Bocina grande para fiestas"></div>
+          <h3>BT-1305</h3>
+          <p class="precio">$7.00</p>
+          <a class="boton boton-naranja" href="https://wa.me/50766902504?text=Hola,%20quiero%20la%20bocina%20grande%20para%20fiestas">Pedir</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="seccion naranja">
+      <div class="dos-columnas">
+        <h2>¿No ves lo que buscas?</h2>
+        <div>
+          <p>Escríbenos y te decimos qué bocinas tenemos disponibles.</p>
+          <a class="boton boton-negro" href="https://wa.me/50766902504?text=Hola,%20busco%20una%20bocina">Escribir por WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="logo.png" alt="El Maestro">
+    <p>© 2026 El Maestro</p>
+  </footer>
+
+</body>
+</html>
